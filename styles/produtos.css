@@ -1,5 +1,5 @@
 header {
-	background: #BBBBBB;
+	background: #000000;
 	padding: 20px 0;
 }
 
@@ -7,6 +7,11 @@ header {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+}
+
+h1 img {
+	height: 200px;
+	width: auto;
 }
 
 nav {
@@ -22,7 +27,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -82,6 +87,11 @@ footer {
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
+}
+
+footer img {
+	height: 200px;
+	width: auto;
 }
 
 .copyright {
