@@ -37,3 +37,24 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
+
+body {
+	background-color: #C78C19;
+}
+
+main {
+	background-color: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.benefits-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
