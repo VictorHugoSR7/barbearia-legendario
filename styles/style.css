@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-image: url("../images/darkwood.jpg");
 	padding: 20px 0;
@@ -42,6 +46,7 @@ footer {
     background-color: #000000;
     padding: 20px;
 }
+
 .box-footer {
     margin:  auto 0 10px;
     display: flex;
