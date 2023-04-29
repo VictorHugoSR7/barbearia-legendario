@@ -1,3 +1,10 @@
+:root {
+
+	--cor-base: #DFAF67;
+	--sombra-cor-base: #7e500a;
+
+}
+
 main {
 	width: 940px;
 	margin: 0 auto;
@@ -7,7 +14,7 @@ form {
 	margin: 40px 0;
 }
 
-form label {
+form label, form legend {
 	display: block;
 	font-size: 18px;
 	margin: 0 0 10px;
@@ -18,4 +25,26 @@ form label {
 	margin: 0 0 20px;
 	padding: 10px;
 	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background-color: var(--cor-base);
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+
+}
+
+.enviar:hover {
+	background-color: var(--sombra-cor-base);
+	color: rgb(255, 255, 255);
+	transition: 0.5s all;
+	cursor: pointer;
+	transform: scale(1.03);
 }
