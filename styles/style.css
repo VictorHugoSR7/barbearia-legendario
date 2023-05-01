@@ -13,7 +13,7 @@ header {
 	margin: 0 auto;
 }
 
-h1 img {
+h1 img, footer img {
 	height: 200px;
 	width: auto;
 }
@@ -42,6 +42,13 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+#bg-video {
+	max-height: 250px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
 footer {
     background-color: #000000;
     padding: 20px;
@@ -55,10 +62,6 @@ footer {
     flex-direction: column; /* Adiciona a direção do eixo principal como coluna */
 }
 
-footer img {
-	height: 200px;
-	width: auto;
-}
 
 .copyright {
 	color: #FFFFFF;
